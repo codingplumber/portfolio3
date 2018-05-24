@@ -1,0 +1,26 @@
+.button {
+    background-image: url('../../images/dark-arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    border: solid 2px #e5e6e7;
+    height: 5em;
+    width: 5em;
+    /* opacity: 1; */
+
+    /* display: none; */
+    border-radius: 4em 4em 0 0;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 2.5em);
+    border-bottom: none;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import styles from './App.css';
 import Nav from './components/Nav/Nav';
 import Intro from './components/Intro/Intro';
+import WhatIDo from './components/WhatIDo/WhatIDo';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className={styles.wrapper}>
         <Nav />
         <Intro />
+        <WhatIDo />
       </div>
     );
   }
