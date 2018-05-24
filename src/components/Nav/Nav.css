@@ -1,0 +1,29 @@
+.wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 5;
+    border-bottom: 1px solid #f1f1f1;
+
+    /* fix this */
+    width: 96vw;
+    /* fix this */
+
+    border: 1px solid red;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-weight: 300;
+}
+
+.navLinks > p {
+    margin: 0;
+}
